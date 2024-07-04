@@ -14,7 +14,6 @@ Este projeto é parte do Desafio proposto pela Indicium. O objetivo é realizar 
 - **model.pkl:** Modelo treinado salvo no formato pickle.
 - **pipeline.pkl:** Pipeline de pré-processamento salvo no formato pickle.
 - **genre_multilabel_binarizer.pkl:** Codificador de rótulos binários para gêneros de filmes, salvo no formato pickle.
-- **model_NLP/**: Pasta contendo informações do modelo de processamento de linguagem.
 - **desafio_indicium_imdb.csv:** Arquivo CSV contendo os dados de treinamento.
 - **[Lighthouse] Desafio Ciência de Dados 2024-9.docx:** Documento Word com o desafio detalhado.
 
