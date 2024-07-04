@@ -1,11 +1,22 @@
-<font size="6">
-# LH_CD_GABRIELFERRI - Desafio Indicium Lighthouse
+<font size="6"><strong>Desafio Indicium Lighthouse</strong>
 
-## Descrição do Projeto
-
+Gabriel Ferri
+<br>
+##  <strong>Descrição do Projeto</strong>
 Este projeto é parte do Desafio proposto pela Indicium. O objetivo é realizar uma análise detalhada de um banco de dados cinematográfico e aplicar técnicas de análise exploratória de dados (EDA), modelagem preditiva e criação de um modelo de machine learning para prever a nota do IMDb de filmes com base em suas características.
 
 <font size="4">
+
+## Arquivos no Repositório
+
+- **LH_CD_GABRIELFERRI.ipynb:** Notebook contendo o EDA e os modelos desenvolvidos.
+- **requirements.txt:** Arquivo contendo as dependências do projeto.
+- **model.pkl:** Modelo treinado salvo no formato pickle.
+- **pipeline.pkl:** Pipeline de pré-processamento salvo no formato pickle.
+- **genre_multilabel_binarizer.pkl:** Codificador de rótulos binários para gêneros de filmes, salvo no formato pickle.
+- **model_NLP/**: Pasta contendo informações do modelo de processamento de linguagem.
+- **desafio_indicium_imdb.csv:** Arquivo CSV contendo os dados de treinamento.
+- **[Lighthouse] Desafio Ciência de Dados 2024-9.docx:** Documento Word com o desafio detalhado.
 
 ## Instalação e Execução
 
@@ -19,32 +30,51 @@ Para executar este projeto localmente, siga estas instruções:
    git clone https://github.com/GGBF1991/LH_CD_GABRIELFERRI.git
    cd LH_CD_GABRIELFERRI
 
-Instale as dependências:
+2. **Crie e ative o ambiente:**
 
-Recomenda-se utilizar um ambiente virtual Python (conda).
+   Recomenda-se utilizar um ambiente virtual Python (conda).
 
-conda create --name lh_cd_gabrielferri python=3.8
-conda activate lh_cd_gabrielferri
+   ```bash
+   conda create --name lh_cd_gabrielferri python=3.8
+   conda activate lh_cd_gabrielferri
+   ```
 
-Em seguida, instale as dependências:
+3. **Instale as dependências:**
 
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
+<font size="4">
 
-Dados e Dicionário
+## Dados e Dicionário
+
 A base de dados de treinamento contém 15 colunas com informações sobre filmes:
 
-Series_Title – Nome do filme
-Released_Year - Ano de lançamento
-Certificate - Classificação etária
-Runtime – Tempo de duração
-Genre - Gênero
-IMDB_Rating - Nota do IMDB
-Overview - Overview do filme
-Meta_score - Média ponderada de todas as críticas
-Director – Diretor
-Star1 - Ator/atriz #1
-Star2 - Ator/atriz #2
-Star3 - Ator/atriz #3
-Star4 - Ator/atriz #4
-No_of_Votes - Número de votos
-Gross - Faturamento
+| Coluna          | Descrição                                     |
+|-----------------|-----------------------------------------------|
+| Series_Title    | Nome do filme                                  |
+| Released_Year   | Ano de lançamento                              |
+| Certificate     | Classificação etária                           |
+| Runtime         | Tempo de duração                               |
+| Genre           | Gênero                                         |
+| IMDB_Rating     | Nota do IMDB                                   |
+| Overview        | Overview do filme                              |
+| Meta_score      | Média ponderada de todas as críticas           |
+| Director        | Diretor                                        |
+| Star1           | Ator/atriz #1                                  |
+| Star2           | Ator/atriz #2                                  |
+| Star3           | Ator/atriz #3                                  |
+| Star4           | Ator/atriz #4                                  |
+| No_of_Votes     | Número de votos                                |
+| Gross           | Faturamento                                    |
+
+<font size="4">
+
+## Contato
+
+Para mais informações, entre em contato:
+
+E-mail: engenhariaferri@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/gabrielferrimachinelearning/
+```
