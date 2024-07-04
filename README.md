@@ -1,11 +1,11 @@
-<font size="6"><strong>Desafio Indicium Lighthouse</strong>
+# Desafio Indicium Lighthouse
 
-Gabriel Ferri
-<br>
-##  <strong>Descrição do Projeto</strong>
+### Gabriel Ferri
+
+
+#  <strong>Descrição do Projeto</strong>
 Este projeto é parte do Desafio proposto pela Indicium. O objetivo é realizar uma análise detalhada de um banco de dados cinematográfico e aplicar técnicas de análise exploratória de dados (EDA), modelagem preditiva e criação de um modelo de machine learning para prever a nota do IMDb de filmes com base em suas características.
-
-<font size="4">
+</font>
 
 ## Arquivos no Repositório
 
